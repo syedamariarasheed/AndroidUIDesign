@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+
+   >
+
+    <item android:id="@+id/action_setting"
+        android:title="setting"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/action_camera"
+        android:title="camera"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+    </item>
+
+
+    <item android:id="@+id/action_refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        app:showAsAction="always">
+    </item>
+
+
+    <item android:id="@+id/nav_Phone"
+        android:title="delete"
+        android:icon="@drawable/ic_phone_in_talk_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+    </item>
+
+    <item android:id="@+id/action_clear"
+        android:title="clear"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+    </item>
+
+</menu>

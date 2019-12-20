@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/nav_home"
+    android:title="Home"
+android:icon="@drawable/ic_home_black_24dp"
+    >
+</item>
+    <item android:id="@+id/nav_Email"
+        android:title="Email"
+        android:icon="@drawable/ic_email_black_24dp"
+        >
+    </item>
+    <!--<item android:id="@+id/nav_Phone"-->
+        <!--android:title="Phone"-->
+        <!--android:icon="@drawable/ic_phone_in_talk_black_24dp"-->
+        <!--&gt;-->
+    <!--</item>-->
+    <item android:id="@+id/nav_Setting"
+        android:title="Setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        >
+    </item>
+    <item android:id="@+id/nav_Message"
+        android:title="Profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        >
+    </item>
+</menu>
